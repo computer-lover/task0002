@@ -9,10 +9,10 @@ b=[31,28,31,30,31,30,31,31,30,31,30,31]
 ms=int(strftime('%m'))
 ds=int(strftime('%d'))
 s=0
-for i in range(len(b)):
+for i in range(1,len(b)):
     if i<ms:
         s=s+b[i]
-print(s)
+print(s+ds)
 
     
 
