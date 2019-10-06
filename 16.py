@@ -3,8 +3,12 @@ for i in range(100,1000):
     b=i%100//10
     c=i%10
     if a**3+b**3+c**3==i:
-        print(i,end=', ')
-print(str(i)[:-1])
+        t.append(i)
+t1=list(map(str,t))
+print(','.join(t1))
+
+        
+  
         
         
         
